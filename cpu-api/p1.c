@@ -17,5 +17,12 @@ int main(int argc, char *argv[]) {
 
 		printf("Hello, I am the parent process of %d (pid:%d)\n", rc, (int) getpid());
 	}
+
+	// We will print a lot of integers from both processes.
+	// the print statements should be interleaved demonstrating the
+	// OS scheduler.
+	for (int i = 0; i < 100; i++) {
+		printf("(%d) - %d\n", (int) getpid(), i);
+	}
 	return 0;
 }
