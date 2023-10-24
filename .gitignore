@@ -3,6 +3,7 @@ zig_experiments/zig-linux-x86_64-0.11.0
 zig_experiments/zig-linux-x86_64-0.12.0-dev
 zig_experiments/zig-out
 zig_experiments/zig-cache
+zig_experiments/code/zig-cache
 
 # Prerequisites
 *.d
